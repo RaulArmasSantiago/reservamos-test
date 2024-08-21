@@ -16,7 +16,6 @@ export const Home = () => {
     <div className="app">
       <Header toggleSidebar={toggleSidebar} />
       <div className="app__body">
-        <Sidebar isSidebarOpen={isSidebarOpen} />
         <MainContainer />
       </div>
     </div>

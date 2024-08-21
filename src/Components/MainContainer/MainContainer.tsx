@@ -1,11 +1,11 @@
 import React from "react";
 import "./styles.scss";
+import Forecast from "../Forecast/Forecast";
 
 const MainContainer = () => {
   return (
     <main className="main-container">
-      <h1>Admin Panel</h1>
-      <p>Aqui se mostrara la info</p>
+      <Forecast />
     </main>
   );
 };
