@@ -62,7 +62,7 @@ const Header = ({ toggleSidebar }: any) => {
                   key={i}
                   onClick={() => handleSelectCity(city)}
                 >
-                  {city.city_name}
+                  {city.city_name}, {city.state}
                 </span>
               ))}
           </div>
