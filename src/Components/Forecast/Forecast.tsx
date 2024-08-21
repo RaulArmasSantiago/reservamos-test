@@ -6,7 +6,7 @@ import { LocationIcon } from "../SVGS";
 
 const Forecast = () => {
   const { currentCity } = useSelector((state: RootState) => state.forecast);
-  if (!currentCity) return <div>Selecciona un destino</div>;
+  if (!currentCity) return <div className="empty">Selecciona un destino</div>;
 
   return (
     <div className="forecast">
