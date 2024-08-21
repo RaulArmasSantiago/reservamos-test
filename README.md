@@ -1,46 +1,57 @@
-# Getting Started with Create React App
+# Test Reservamos
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Descripción
 
-## Available Scripts
+Esta es una aplicación construida con React. Proporciona una interfaz para la visualizacion del pronostico del tiempo utilizando la API OpenWeather.
 
-In the project directory, you can run:
+## Requisitos
 
-### `npm start`
+- Node.js (recomendado LTS)
+- npm o yarn
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## Instalación
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+Para instalar las dependencias del proyecto, puedes usar `npm` o `yarn`.
 
-### `npm test`
+**Con npm:**
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+```bash
+npm install
+```
 
-### `npm run build`
+**Con yarn:**
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+```bash
+yarn install
+```
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Configuración del Entorno
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Antes de ejecutar la aplicación, asegúrate de tener un archivo .env en la raíz del proyecto. Este archivo debe contener la variable REACT_APP_STAGE configurada como dev.
 
-### `npm run eject`
+Puedes crear el archivo .env con el siguiente contenido:
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+```bash
+REACT_APP_STAGE=dev
+```
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Ejecución del Proyecto
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+Una vez que hayas instalado las dependencias y configurado el entorno, puedes iniciar la aplicación localmente con uno de los siguientes comandos:
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+**Con npm:**
 
-## Learn More
+```bash
+npm start
+```
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+**Con yarn:**
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+```bash
+yarn start
+```
+
+Esto iniciará el servidor de desarrollo y abrirá la aplicación en tu navegador predeterminado.
+
+Uso
+Una vez que la aplicación esté en funcionamiento, puedes interactuar con ella en http://localhost:3000.
